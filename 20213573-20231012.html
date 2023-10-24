@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>20213573-20231012</title>
+   <script type="text/javascript">
+   <!--
+	var video = ['2013东西方2马的交锋.mp4','funDogs.mp4','上瘾.mp4','世界冠军江西弃婴.mp4','农民吹牛.mp4','逗八哥狗.mp4'];
+
+   </script>
+  
+   <style type="text/css">
+	 
+   </style>
+ </head>
+ <body>
+
+  <video id = 'video' >  
+      <source src="F:/Git/huangwensheng/videoMP4/2013东西方2马的交锋.mp4" type="video/mp4">
+  </video>
+
+ <div id="" class="">
+	<input type="button" value="PALY" id="play">
+	<input type="button" value="STOP" id="stop">
+	<input type="button" value="NEXT" id="next">
+ </div>
+ </body>
+ 
+ <script type="text/javascript">
+ <!--
+    var videos = document.getElementById('video');
+	var plays = document.getElementById('play');
+	var stops = document.getElementById('stop');
+	var nexts = document.getElementById('next');
+	plays.onclick = function(){
+	videos.play();
+	};
+	stops.onclick = function(){
+	videos.pause();
+	};
+	var i=0;
+	nexts.onclick = function(){
+		i++;
+    videos.src="F:/Git/huangwensheng/videoMP4/"+video[i] ;
+	videos.play();
+	 };
+
+ //-->
+ </script>
+</html
